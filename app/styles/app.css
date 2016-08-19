@@ -1,0 +1,32 @@
+footer{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+img {
+  max-width: 600px;
+  margin: 25px;
+}
+
+body{
+  padding-top: 50px;
+  font-family: 'Arimo', sans-serif;
+  background-image: url("http://arijyu.com/wp-content/uploads/2015/09/page-bg.jpg");
+}
+
+p{
+  font-family: 'Merriweather', serif;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+.jumbotron{
+  height: 400px;
+  background-image: url("http://yorozlab.com/wp-content/uploads/2016/04/questions1a.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row{
+  min-height: 800px;
+}

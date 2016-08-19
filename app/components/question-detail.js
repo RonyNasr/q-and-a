@@ -16,5 +16,6 @@ export default Ember.Component.extend({
      question.save();
      this.transitionTo('question');
    },
+  
   }
 });

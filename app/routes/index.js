@@ -13,9 +13,6 @@ export default Ember.Route.extend({
       newQuestion.save();
       this.transitionTo('index');
     },
-    showQuestionForm(){
-      this.set('addQuestion', true);
-    },
-    //saverAnswer(params){}
+
   }
 });

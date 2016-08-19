@@ -1,11 +1,11 @@
 
-{{#link-to 'question' question_id}}
-<div class="panel panel-primary">
-  <div class="panel-heading">
-    {{question.author}}:
+  {{#link-to 'question' question.id}}
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      {{question.author}}:
+    </div>
+    <div class="panel-body">
+      {{question.title}}
+    </div>
   </div>
-  <div class="panel-body">
-    {{question.title}}
-  </div>
-</div>
-{{/link-to}}
+  {{/link-to}}

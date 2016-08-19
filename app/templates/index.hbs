@@ -1,8 +1,11 @@
 <h1>Q & A</h1>
 
-{{new-question saveQuestion="saveQuestion"}}
-<hr>
-<h3>Available Questions</h3>
-{{#each model.questions as |question|}}
-  {{question-tile question=question}}
-{{/each}}
+  {{new-question saveQuestion="saveQuestion"}}
+
+
+<div class="row">
+  <h3>Available Questions</h3>
+  {{#each model.questions as |question|}}
+    {{question-tile question=question}}
+  {{/each}}
+</div>

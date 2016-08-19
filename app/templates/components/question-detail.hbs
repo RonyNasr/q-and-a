@@ -1,0 +1,16 @@
+<h3>Question Details</h3>
+
+<h4>{{question.title}}</h4>
+<h5>by {{question.author}}</h5>
+<br><br>
+<p>
+  {{question.content}}
+</p>
+<div class="bottom">
+  <button {{action 'delete' question}} class="btn btn-danger">Remove this question</button>
+  <br><br>
+  {{update-question question=question update="update"}}
+</div>
+<div class="row answers">
+  {{new-answer}}
+</div>

@@ -1,0 +1,11 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    {{answer.username}}:
+  </div>
+  <div class="panel-body">
+    {{answer.answer}}
+    <div class="del-ans">
+      <button {{action 'delete' answer}} class="btn-danger"><span class="glyphicon glyphicon-remove"></span></button>
+    </div>
+  </div>
+</div>

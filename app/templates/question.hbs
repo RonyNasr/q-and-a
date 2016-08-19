@@ -2,3 +2,8 @@
 <div class="row answers">
   {{new-answer question=model saveAnswer="saveAnswer"}}
 </div>
+<div class="row answers-row">
+  {{#each model.answers as |answer|}}
+    {{view-answer answer=answer destroyAnswer="destroyAnswer"}}
+  {{/each}}
+</div>

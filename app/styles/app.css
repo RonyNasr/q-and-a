@@ -27,8 +27,8 @@ p{
   background-size: cover;
 }
 
-.row{
-  min-height: 800px;
+.questions-row, .answers-row{
+  min-height: 600px;
 }
 
 .new-question{
@@ -44,4 +44,13 @@ p{
 
 .answer{
   margin-top: 20px;
+}
+.answers{
+  height: 200px;
+}
+
+.del-ans{
+  position: relative;
+  margin-top: -20px;
+  margin-left: 90%;
 }

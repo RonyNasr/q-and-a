@@ -4,6 +4,7 @@ export default Ember.Component.extend({
   addQuestion: false,
   actons: {
     showQuestionForm(){
+      console.log("showQuestionForm");
       this.set('addQuestion', true);
     },
     saveQuestion(){

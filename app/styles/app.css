@@ -37,3 +37,11 @@ p{
   margin-bottom: 20px;
   border-bottom: 2px solid darkgrey;
 }
+
+.btn-cmt{
+  margin-top: -40px;
+}
+
+.answer{
+  margin-top: 20px;
+}

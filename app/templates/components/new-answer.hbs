@@ -1,1 +1,10 @@
-{{yield}}
+<div class="answer">
+  <h3>New Answer</h3>
+  <div class="col-sm-9 col-sm-offset-1 ">
+    <label for="username">User Name</label>
+    {{input value=username id="username"}}<br>
+    <label for="answer">Answer</label>
+    {{textarea value=answer id="answer" cols= "70" rows="2"}}
+    <button class="btn btn-primary btn-lg btn-cmt" {{action 'newAnswer'}}>Add Answer</button>
+  </div>
+</div>
